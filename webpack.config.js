@@ -14,4 +14,12 @@ module.exports = {
 			template: './src/index.html',
 		}),
 	],
+	module: {
+		rules: [
+			{
+				test: /\.(svg|png)$/i,
+				type: 'asset/resource',
+			},
+		],
+	},
 };
