@@ -5,10 +5,10 @@ export default function About() {
 	title.textContent = "About";
 	about.appendChild(title);
 	const phone = document.createElement('p');
-	phone.textContent = "Phone 123-456-7890";
+	phone.textContent = "Phone: 123-456-7890";
 
 	const mail = document.createElement('p')
-	mail.textContent = "Email jondoe@email.com";
+	mail.textContent = "Email: jondoe@email.com";
 
 	about.appendChild(phone);
 	about.appendChild(mail);

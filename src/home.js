@@ -11,7 +11,9 @@ export default function Home() {
 	bugerImage.src = burger;
 	home.appendChild(bugerImage);
 
-
+	const quote = document.createElement('q');
+	quote.innerHTML = "Burger is always better";
+	home.appendChild(quote);
 	return home;
 }
 

@@ -1,3 +1,4 @@
+import './style.css';
 import Home from './home';
 import About from './about';
 import Menu from './menu';
@@ -25,4 +26,4 @@ aboutBtn.addEventListener('click', (e) => {
 	showPage(About());
 });
 
-
+showPage(Home());
