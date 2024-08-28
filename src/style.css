@@ -1,7 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	font-family: Century Gothic
+	font-family: Century Gothic;
 }
 
 h1 {
@@ -12,7 +12,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	gap: 8px;
-	margin-botton:4px;
+	margin-bottom:4px;
 }
 
 nav button {
